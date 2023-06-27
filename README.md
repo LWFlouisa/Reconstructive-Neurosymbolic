@@ -23,3 +23,8 @@ This format assumes one isn't trying to achieve the dark nuetral outcome.
 Remembered fortunes is similar to a fortune cookie, except that if two fortune outcomes, it retains it in long term memory.
 
 You would apply the concept to neurosymbolic by having two competing neurosymbolic subroutines.
+
+## Combined Implementation
+Create two nodes for neuro symbolic thinking.
+If two nuetral outcomes match, retain matching outcome in longterm memory.
+Use algorithm to reorder different nuetral outcomes.
