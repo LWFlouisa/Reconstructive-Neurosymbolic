@@ -28,3 +28,6 @@ You would apply the concept to neurosymbolic by having two competing neurosymbol
 Create two nodes for neuro symbolic thinking.<br />
 Shuffle different nuetral outcomes using Vortex based math in each node.<br />
 If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
+
+## Usage In Generative AI
+Rather than using the traditional sampling approach to poetry generators, this would rather attempt to reconstruct a shuffled poem generated, and then reorder based on implied logic.
