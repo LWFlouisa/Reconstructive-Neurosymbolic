@@ -25,6 +25,6 @@ Remembered fortunes is similar to a fortune cookie, except that if two fortune o
 You would apply the concept to neurosymbolic by having two competing neurosymbolic subroutines.
 
 ## Combined Implementation
-Create two nodes for neuro symbolic thinking.
-If two nuetral outcomes match, retain matching outcome in longterm memory.
-Use algorithm to reorder different nuetral outcomes.
+Create two nodes for neuro symbolic thinking.<br />
+Shuffle different nuetral outcomes using Vortex based math in each node.<br />
+If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
