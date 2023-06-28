@@ -10,12 +10,14 @@ module Reconstructor
       # In each directory
       system("cd node1; mkdir _imaginedpath; mkdir _narratives")
       system("cd node1/_imagedpath; mkdir outcomes; cd outcomes; touch nuetral_outcome.txt")
+      system("cd node1/_narratives; mkdir outcomes; cd outcomes; touch character_fates.txt; touch dating_outcomes.txt")
 
       system("cd node2; mkdir _imaginedpath; mkdir _narratives")
       system("cd node2/_imagedpath; mkdir outcomes; cd outcomes; touch nuetral_outcome.txt")
+      system("cd node2/_narratives; mkdir outcomes; cd outcomes; touch character_fates.txt; touch dating_outcomes.txt")
 
       # Consensus reality and knowledge base.
-      system("mkdir _aggregator; mkdir _knowledgebase")
+      system("mkdir _aggregator; mkdir _knowledgebase; cd _aggregator; mkdir consensus; touch objective_nuetral.txt")
     end
 
     def self.find_nuetral
