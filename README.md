@@ -35,9 +35,6 @@ Rather than using the traditional sampling approach to poetry generators, this w
 ### Implementation
 In case directories are missing:
 ~~~ruby
-require_relative "Reconstructor/reconstructor.rb"
-
-Reconstructor::NeuralNet.establish_nodes
 ~~~
 
 Operating the neural network: each each node create analyze.rb:
