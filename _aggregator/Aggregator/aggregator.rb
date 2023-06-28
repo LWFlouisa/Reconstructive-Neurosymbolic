@@ -14,8 +14,10 @@ module Aggregator
         node2_outcome = imagined_outcome2[row]
 
         if node1_outcome == node2_outcome
-          open("_aggregator/consonsens/objective_nuetral.txt", "a") { |f|
-            f.puts "#{node1_outcome} matches with #{node2_outcome}"
+          open("_aggregator/consonsens/objective_nuetral.xml", "a") { |f|
+            f.puts "<neurosym context='memory'>"
+            f.puts "  <aggregate>#{node1_outcome} matches with #{node2_outcome}</aggregate>"
+            f.puts "</neurosym>"
           }
 
           open("_knowledgebase/result.pl", "w") { |f|
