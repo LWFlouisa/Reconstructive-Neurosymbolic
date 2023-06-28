@@ -45,5 +45,5 @@ Operating the neural network:
 require_relative "Reconstructor/reconstructor.rb"
 
 Reconstructor::NeuralNet.find_nuetral
-Reconstructor::NeuralNet.consult
+Reconstructor::NeuralNet.consult_dataset
 ~~~
