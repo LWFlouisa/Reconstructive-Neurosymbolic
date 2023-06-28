@@ -26,6 +26,13 @@ You would apply the concept to neurosymbolic by having two competing neurosymbol
 
 ## Combined Implementation
 Create two nodes for neuro symbolic thinking.<br />
+
+~~~ruby
+require_relative "Reconstructor/reconstructor.rb"
+
+
+~~~
+
 Shuffle different nuetral outcomes using Vortex based math in each node.<br />
 If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
 
