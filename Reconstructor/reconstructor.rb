@@ -56,7 +56,7 @@ module Reconstructor
     end
   end
 
-  ## Way of manipulating data to test the AI.
+  ## Way of manipulating data to test the AI. Not implemented into the main dataset yet.
   class DatasetHandling
     def self.establish_tree # Creates essential directories for manipulating data.
       system("mkdir _rulesets; mkdir _adaptation; cd _rulsets; mkdir choice; cd choice; touch value.txt")
