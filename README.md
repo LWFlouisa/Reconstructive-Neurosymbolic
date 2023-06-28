@@ -47,3 +47,6 @@ require_relative "Reconstructor/reconstructor.rb"
 Reconstructor::NeuralNet.find_nuetral
 Reconstructor::NeuralNet.consult_dataset
 ~~~
+
+### Automanipulating Datasets
+Coming soon
