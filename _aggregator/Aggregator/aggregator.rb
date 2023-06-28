@@ -13,8 +13,10 @@ module Aggregator
         node1_outcome = imagined_outcome1[row]
         node2_outcome = imagined_outcome2[row]
 
+        # The result is the same across nodes, then retain result and script a prolog reason.
         if node1_outcome == node2_outcome
           open("_aggregator/consonsens/objective_nuetral.xml", "a") { |f|
+            f.puts "<?xml version = '1.0' encoding = 'UTF-8'?>"
             f.puts "<neurosym context='memory'>"
             f.puts "  <aggregate>#{node1_outcome} matches with #{node2_outcome}</aggregate>"
             f.puts "</neurosym>"
