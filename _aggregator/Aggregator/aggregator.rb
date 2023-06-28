@@ -25,6 +25,8 @@ module Aggregator
           open("_knowledgebase/result.pl", "w") { |f|
             f.puts "outcome(nuetral_outcome, matches)."
           }
+
+          system("7z a objective_nuetral.7z *"
         else
           puts "These outcomes do not match, and therefore will not be retained."
         end
