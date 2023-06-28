@@ -34,11 +34,17 @@ Rather than using the traditional sampling approach to poetry generators, this w
 
 ### Implementation
 Operating the neural network: each each node create analyze.rb:
-
 ~~~ruby
 require_relative "Reconstructor/reconstructor.rb"
 
 Reconstructor::NeuralNet.find_nuetral
+~~~
+
+Outcome aggregation:
+~~~
+require_relative "_aggregator/Aggregator/aggregator.rb"
+
+Aggregator::Network.consult_dataset
 ~~~
 
 ### Automanipulating Datasets
