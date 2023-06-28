@@ -13,6 +13,9 @@ module Reconstructor
 
       system("cd node2; mkdir _imaginedpath; mkdir _narratives")
       system("cd node2/_imagedpath; mkdir outcomes; cd outcomes; touch nuetral_outcome.txt")
+
+      # Consensus reality and knowledge base.
+      system("mkdir _aggregator; mkdir _knowledgebase")
     end
 
     def self.find_nuetral
@@ -46,8 +49,12 @@ module Reconstructor
         node2_outcome = imagined_outcome2[row]
 
         if node1_outcome == node2_outcome
-          open("aggregator/consonsens/objective_nuetral.txt", "a") { |f|
+          open("_aggregator/consonsens/objective_nuetral.txt", "a") { |f|
             f.puts "#{node1_outcome} matches with #{node2_outcome}"
+          }
+
+          open("_knowledgebase/result.pl", "w") { |f|
+            f.puts "outcome(nuetral_outcome, matches)."
           }
         else
           puts "These outcomes do not match, and therefore will not be retained."
