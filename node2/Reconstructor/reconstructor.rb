@@ -1,6 +1,3 @@
-#module LogicEngine
-#end
-
 module Reconstructor
 
   class NeuralNet
