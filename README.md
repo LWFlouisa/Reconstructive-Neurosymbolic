@@ -32,7 +32,9 @@ If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
 ### Implementation
 Get aggregator outcome comparison.
 
+If a is the aggregator:
 ~~~
+          a
     0          1
   0   1      0   1
 0 0,0 0,1  0 0,0 0,1
