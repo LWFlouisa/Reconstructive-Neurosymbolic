@@ -32,6 +32,13 @@ If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
 ### Implementation
 Get aggregator outcome comparison.
 
+~~~
+    0          1
+  0   1      0   1
+0 0,0 0,1  0 0,0 0,1
+1 1,0 1,1  1 1,0 1,1
+~~~
+
 ~~~ruby
 system("cd node1; ruby analyze.rb")
 system("cd node2; ruby analyze.rb")
