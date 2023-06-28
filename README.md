@@ -33,19 +33,7 @@ If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
 Rather than using the traditional sampling approach to poetry generators, this would rather attempt to reconstruct a shuffled poem generated, and then reorder based on implied logic.
 
 ### Implementation
-Operating the neural network: each each node create analyze.rb:
-~~~ruby
-require_relative "Reconstructor/reconstructor.rb"
 
-Reconstructor::NeuralNet.find_nuetral
-~~~
-
-Outcome aggregation:
-~~~
-require_relative "_aggregator/Aggregator/aggregator.rb"
-
-Aggregator::Network.consult_dataset
-~~~
 
 ### Automanipulating Datasets
 Coming soon
