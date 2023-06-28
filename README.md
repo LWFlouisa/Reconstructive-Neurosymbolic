@@ -33,7 +33,16 @@ If two nuetral outcomes match, retain matching outcome in longterm memory.<br />
 Rather than using the traditional sampling approach to poetry generators, this would rather attempt to reconstruct a shuffled poem generated, and then reorder based on implied logic.
 
 ### Implementation
+Get aggregator outcome comparison.
 
+~~~ruby
+system("cd node1; ruby analyze.rb")
+system("cd node2; ruby analyze.rb")
+
+require_relative "_aggregator/Aggregator/aggregator.rb"
+
+Aggregator::Network.consult_dataset
+~~~
 
 ### Automanipulating Datasets
 Coming soon
