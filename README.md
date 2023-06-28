@@ -40,12 +40,12 @@ require_relative "Reconstructor/reconstructor.rb"
 Reconstructor::NeuralNet.establish_nodes
 ~~~
 
-Operating the neural network:
+Operating the neural network: each each node create analyze.rb:
+
 ~~~ruby
 require_relative "Reconstructor/reconstructor.rb"
 
 Reconstructor::NeuralNet.find_nuetral
-Reconstructor::NeuralNet.consult_dataset
 ~~~
 
 ### Automanipulating Datasets
