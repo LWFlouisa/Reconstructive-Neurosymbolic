@@ -54,5 +54,10 @@ require_relative "_aggregator/Aggregator/aggregator.rb"
 Aggregator::Network.consult_dataset
 ~~~
 
+## Reconstructive Portion
+Imagine you have a scrambled dataset. This reconstructs a face from a dataset. When used in tandem with a neural net you create a hybrid AI.
+
+[Reconstructor](https://github.com/LWFlouisa/Reconstructor.git)
+
 ### Automanipulating Datasets
 Coming soon
